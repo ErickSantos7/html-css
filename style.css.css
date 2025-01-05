@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+*{ 
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+   color:gray;
+   font-family:"Cabin",sans-serif;
+   font-weight: 400;
+   }
+   header{
+    padding: 2rem;
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size:x-large;
+    font-style:oblique;
+   }
+   main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+   }
+   section{
+    display: flex;
+    flex-direction: column;
+   }
+    h2{
+        color:brown;
+        font-size: 1.2rem;  
+    }
+   input[type="radio"],input[type="checkbox"],input[type="password"],input[ type="date"],input[type="email"] {
+    accent-color: black ;
+    border: 2px solid #ccd595;
+    
+    padding: 0.6rem;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+   }
+   input[type="text"] {
+    padding: 0.6rem;
+    border: 2px solid #ccd595;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+
+       }
+    select{
+        cursor: pointer;
+        background-color:#ccd595;
+        color: black;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    img{
+        width: 16rem;
+        border-radius: 5px;
+    }
+    table{
+        width: 100%; 
+        border-collapse: collapse;
+            }
+            th{
+                background-color: #ccd595;
+                color: #331f19;
+                padding: 1rem;
+              }
+            td{
+                color: #331f19;
+                padding: 1rem;
+                text-align: center;
+            }
+            tfoot td {
+                background-color: brown ;
+            }
+            details {
+                    background-color: #ccd595;
+                    border-radius: 5px;
+                    padding: 1rem;
+            }
+          
+            summary {
+                color: #331f19;
+                font-style: oblique;
+                font-weight: 650;
+                margin: 0.5rem;
+                cursor: pointer;
+            }
+            ol{
+                margin-left: 0.5rem;
+              }
+              li{
+                padding: 0.2rem;
+                color:black;
+                }
+                fieldset{
+                    border: 2px solid #ccd595;
+                    border-radius: 5px;
+                    padding: 1.5rem;
+                }
+                legend{
+                    color: brown;
+                    padding: 0 0.5rem;
+                }
+                textarea{
+                    background-color: transparent;
+                    outline: none; 
+                    border-radius: 5px;
+                    border: 2px solid #ccd595    
+                }
+                button{
+                    background-color: #ccd595;
+                    border: none;   
+                    padding: 0.6rem;
+                    color: #331f19;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    }
+                    
